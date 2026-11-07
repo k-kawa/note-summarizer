@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "note 論文リライター",
+  "version": "0.1.0",
+  "description": "note の記事を、Edge 内蔵の LLM でタイトル・要約・目次・本文の論文風の構成に書き換えます。",
+  "content_scripts": [
+    {
+      "matches": ["https://note.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

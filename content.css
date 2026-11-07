@@ -1,0 +1,76 @@
+.nsr-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 2147483000;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 999px;
+  background: #1f2937;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.nsr-button:disabled {
+  opacity: 0.8;
+  cursor: progress;
+}
+
+.nsr-toast {
+  position: fixed;
+  right: 24px;
+  bottom: 80px;
+  z-index: 2147483000;
+  max-width: 360px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #b91c1c;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.nsr-paper {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  line-height: 1.9;
+}
+.nsr-paper h1.nsr-title {
+  margin: 0 0 1.5em;
+  font-size: 1.6em;
+  line-height: 1.5;
+  text-align: center;
+}
+.nsr-paper h2 {
+  margin: 2em 0 0.8em;
+  font-size: 1.2em;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.2em;
+}
+.nsr-paper .nsr-abstract {
+  margin: 0 1em 2em;
+  padding: 1em 1.5em;
+  border: 1px solid rgba(127, 127, 127, 0.4);
+}
+.nsr-paper .nsr-abstract h2 {
+  margin-top: 0;
+  border: none;
+  text-align: center;
+}
+.nsr-paper .nsr-toc ol {
+  list-style: none;
+  padding-left: 0;
+}
+.nsr-paper .nsr-toc li {
+  margin: 0.3em 0;
+}
+.nsr-paper .nsr-section p {
+  text-indent: 1em;
+  margin: 0 0 1em;
+}
+.nsr-paper .nsr-note {
+  margin-top: 3em;
+  font-size: 0.8em;
+  opacity: 0.6;
+}
